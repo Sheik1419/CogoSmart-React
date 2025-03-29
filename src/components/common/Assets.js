@@ -1,3 +1,4 @@
+// Home
 import Home_BG_1 from "../../assets/images/home/Home_BG_1.mp4";
 import Home_BG_2 from "../../assets/images/home/Home_BG_2.png";
 import Home_BG_3 from "../../assets/images/home/Home_BG_3.mp4";
@@ -9,7 +10,7 @@ import Icon4 from "../../assets/images/home/Icon_4.png";
 import Icon5 from "../../assets/images/home/Icon_5.png";
 import Icon6 from "../../assets/images/home/Icon_6.png";
 import Icon7 from "../../assets/images/home/Icon_7.png";
-import Icon8 from "../../assets/images/home/Icon_8.png"
+import Icon8 from "../../assets/images/home/Icon_8.png";
 import Icon9 from "../../assets/images/home/Icon_9.png";
 import Icon10 from "../../assets/images/home/Icon_10.png";
 import Icon11 from "../../assets/images/home/Icon_11.png";
@@ -22,7 +23,19 @@ import Appstore from "../../assets/images/home/Appstore.png";
 import Playstore from "../../assets/images/home/Playstore.png";
 import QR from "../../assets/images/home/QR.png";
 
+// About
+import About_BG_1 from "../../assets/images/about/About_BG_1.png";
+import About_Img_1 from "../../assets/images/about/Card_Img_1.png";
+
+// Pricing / Checkout
+import Pricing_BG_1 from "../../assets/images/about/Pricing_BG_1.png";
+import Checkout_BG_1 from "../../assets/images/about/Checkout_BG_1.png";
+
+// Contact
+import Contact_BG_1 from "../../assets/images/about/Contact_BG_1.jpg";
+
 export {
+  // Home
   Home_BG_1,
   Home_BG_2,
   Home_BG_3,
@@ -46,4 +59,15 @@ export {
   Appstore,
   Playstore,
   QR,
+
+  // About
+  About_BG_1,
+  About_Img_1,
+
+  // Pricing / Checkout
+  Pricing_BG_1,
+  Checkout_BG_1,
+
+  // Contact
+  Contact_BG_1,
 };

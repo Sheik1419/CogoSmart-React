@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Icon1, Icon2, Icon3, Icon4, Icon5 } from "./Assets.js";
+import { Icon1, Icon2, Icon3, Icon4, Icon5 } from "../common/Assets.js";
 import Splide from "@splidejs/splide";
 
 const Choose = () => {

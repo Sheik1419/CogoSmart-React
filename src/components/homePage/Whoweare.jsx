@@ -1,5 +1,5 @@
 import React from "react";
-import { Home_BG_3 } from "./Assets.js";
+import { Home_BG_3 } from "../common/Assets.js";
 
 const Whoweare = () => {
   return (

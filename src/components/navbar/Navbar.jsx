@@ -6,17 +6,13 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
-    const handleScroll = () => {
+    window.addEventListener("scroll", () => {
       if (window.scrollY > 0) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    });
   }, []);
 
   return (
@@ -70,10 +66,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link d-flex align-items-center"
-                to="/"
-              >
+              <Link className="nav-link d-flex align-items-center" to="/">
                 Features
               </Link>
             </li>

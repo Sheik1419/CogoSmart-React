@@ -1,6 +1,6 @@
 import React from "react";
 import "./Pricing.css";
-import { Pricing_BG_1 } from "./Assets.js";
+import { Pricing_BG_1 } from "../common/Assets.js";
 
 const PricingBanner = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon6, Icon7, Icon8, Icon9, Icon10, Icon11 } from "./Assets.js";
+import { Icon6, Icon7, Icon8, Icon9, Icon10, Icon11 } from "../common/Assets.js";
 
 const SubFeatures = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card_Img_1, Card_Img_2, Card_Img_3 } from "./Assets.js";
+import { Card_Img_1, Card_Img_2, Card_Img_3 } from "../common/Assets.js";
 
 const MainFeatures = () => {
   return (

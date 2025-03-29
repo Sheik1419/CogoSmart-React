@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { Contact_BG_1 } from "./Assets.js";
+import { Contact_BG_1 } from "../common/Assets.js";
 
 const ContactBanner = () => {
   return (

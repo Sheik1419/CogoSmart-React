@@ -1,5 +1,5 @@
 import React from "react";
-import { Card_Img_1 } from "./Assets.js";
+import { About_Img_1 } from "../common/Assets.js";
 
 const AboutCards = () => {
   return (
@@ -33,7 +33,7 @@ const AboutCards = () => {
           </h6>
         </div>
         <div className="about-img">
-          <img src={Card_Img_1} className="d-flex mx-auto" width="90%" alt="" />
+          <img src={About_Img_1} className="d-flex mx-auto" width="90%" alt="" />
         </div>
       </div>
     </div>

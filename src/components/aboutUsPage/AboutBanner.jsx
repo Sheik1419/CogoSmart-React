@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { About_BG_1 } from "./Assets.js";
+import { About_BG_1 } from "../common/Assets.js";
 
 const AboutBanner = () => {
   return (

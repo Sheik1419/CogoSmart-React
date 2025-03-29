@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Home_BG_1 } from "./Assets";
+import { Home_BG_1 } from "../common/Assets.js";
 
 const HomeBanner = () => {
   return (

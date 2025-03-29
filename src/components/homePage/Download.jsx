@@ -1,5 +1,5 @@
 import React from "react";
-import { Mockup, Playstore, Appstore, QR } from "./Assets";
+import { Mockup, Playstore, Appstore, QR } from "../common/Assets.js";
 
 const Download = () => {
   return (

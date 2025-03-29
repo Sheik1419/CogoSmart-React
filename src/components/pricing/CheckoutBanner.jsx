@@ -1,6 +1,6 @@
 import React from "react";
 import "./Checkout.css";
-import { Checkout_BG_1 } from "./Assets.js";
+import { Checkout_BG_1 } from "../common/Assets.js";
 
 const CheckoutBanner = () => {
   return (
