@@ -1,0 +1,309 @@
+@media screen and (min-width: 1098px) {
+
+    .footer {
+        position: relative;
+        background: url('../../assets/images/footer_bg.png') center no-repeat;
+        background-size: cover;
+        color: var(--text-primary);
+        padding: 10px 10px 10px 10px;
+        z-index: 999;
+        font-weight: 400;
+    }
+
+    .footer .container-fluid {
+        width: 95%;
+        margin: auto;
+    }
+
+    #brands li a {
+        background-color: var(--secondary);
+        color: var(--primary);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 3px #d0d0d0;
+        font-size: 15px;
+        transition: 0.5s all;
+    }
+
+    #brands #facebook:hover {
+        background-color: #3A5696;
+        color: var(--secondary);
+    }
+
+    #brands #instagram:hover {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 9%, rgba(253, 29, 29, 1) 70%, rgba(252, 176, 69, 1) 100%);
+        color: var(--secondary);
+    }
+
+    #brands #linkedin:hover {
+        background-color: #2864AA;
+        color: var(--secondary);
+    }
+
+    #brands #twitter:hover {
+        background-color: var(--primary);
+        color: var(--secondary);
+    }
+
+    #brands #whatsapp:hover {
+        background-color: var(--main);
+        color: var(--secondary);
+    }
+
+    .footer #footerdiv {
+        margin-top: 10px;
+    }
+
+    /* Company Info */
+    .footer #footerdiv #cmpnyinfo h5 {
+        color: var(--text-secondary);
+        font-size: 15px;
+        font-weight: 450;
+        margin-top: 10px;
+    }
+
+    .footer #footerdiv .footerheadings h5 {
+        color: var(--text-primary);
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .footer #footerdiv #cmpnyinfo h5 i {
+        color: var(--main);
+        font-size: 20px;
+    }
+
+    .footer .nav-item a,
+    .footer .col-md-3 form p {
+        color: var(--text-secondary);
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .footer .nav-item a:hover,
+    .footer .nav-item a.active {
+        color: var(--main);
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1098px) {
+
+    .footer {
+        position: relative;
+        background: url('../../assets/images/footer_bg.png') center no-repeat;
+        background-size: cover;
+        color: var(--text-primary);
+        padding: 10px 0px;
+        z-index: 10;
+        font-weight: 400;
+    }
+
+    .footer .container-fluid {
+        width: 95%;
+        margin: auto;
+    }
+
+    .footer .footerlogo img {
+        height: 40px !important;
+    }
+
+    #brands li a {
+        background-color: var(--secondary);
+        color: var(--primary);
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 3px #d0d0d0;
+        font-size: 12px;
+        transition: 0.5s all;
+    }
+
+    #brands #facebook:hover {
+        background-color: #3A5696;
+        color: var(--secondary);
+    }
+
+    #brands #instagram:hover {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 9%, rgba(253, 29, 29, 1) 70%, rgba(252, 176, 69, 1) 100%);
+        color: var(--secondary);
+    }
+
+    #brands #linkedin:hover {
+        background-color: #2864AA;
+        color: var(--secondary);
+    }
+
+    #brands #twitter:hover {
+        background-color: var(--text-primary);
+        color: var(--secondary);
+    }
+
+    #brands #whatsapp:hover {
+        background-color: var(--main);
+        color: var(--secondary);
+    }
+
+    #brands #behance:hover {
+        background-color: #0032E3;
+        color: var(--secondary);
+    }
+
+    .footer #footerdiv {
+        margin-top: 10px;
+    }
+
+    /* Company Info */
+    .footer #footerdiv #cmpnyinfo h5 {
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 450;
+    }
+
+    .footer #footerdiv .footerheadings h5 {
+        color: var(--text-primary);
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .footer #footerdiv #cmpnyinfo h5 i {
+        color: var(--main);
+        font-size: 18px;
+    }
+
+    .footer .nav-item a,
+    .footer .col-md-3 form p {
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 550;
+    }
+
+    .footer .nav-item a:hover,
+    .footer .nav-item a.active {
+        color: var(--main);
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .footer {
+        position: relative;
+        background: url('../../assets/images/footer_bg.png') center no-repeat;
+        background-size: cover;
+        color: var(--text-primary);
+        padding: 10px 0px;
+        z-index: 10;
+        font-weight: 400;
+        display: block;
+    }
+
+    .footer .container-fluid {
+        width: 95%;
+        margin: auto;
+    }
+
+    #brands li a {
+        background-color: var(--secondary);
+        color: var(--primary);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 3px #d0d0d0;
+        font-size: 15px;
+        transition: 0.5s all;
+    }
+
+    #brands #facebook:hover {
+        background-color: #3A5696;
+        color: var(--secondary);
+    }
+
+    #brands #instagram:hover {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 9%, rgba(253, 29, 29, 1) 70%, rgba(252, 176, 69, 1) 100%);
+        color: var(--secondary);
+    }
+
+    #brands #linkedin:hover {
+        background-color: #2864AA;
+        color: var(--secondary);
+    }
+
+    #brands #twitter:hover {
+        background-color: var(--text-primary);
+        color: var(--secondary);
+    }
+
+    #brands #whatsapp:hover {
+        background-color: var(--main);
+        color: var(--secondary);
+    }
+
+    #brands #instagram:hover {
+        background-color: #CD2954;
+        color: var(--secondary);
+    }
+
+    #brands #behance:hover {
+        background-color: #0032E3;
+        color: var(--secondary);
+    }
+
+    .footer #footerdiv {
+        margin-top: 10px;
+    }
+
+    /* Company Info */
+    .footer #footerdiv .footerheadings {
+        margin-top: 30px;
+    }
+
+    .footer #footerdiv .footerheadings ul {
+        margin-top: -20px !important;
+    }
+
+    .footer #footerdiv #cmpnyinfo h5 {
+        color: var(--text-secondary);
+        font-size: 15px;
+        font-weight: 450;
+        margin-top: 10px;
+    }
+
+    .footer #footerdiv .footerheadings h5 {
+        color: var(--text-primary);
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .footer #footerdiv #cmpnyinfo h5 i {
+        color: var(--main);
+        font-size: 17px;
+    }
+
+    .footer .nav-item a,
+    .footer .col-md-3 form p {
+        color: var(--text-secondary);
+        font-size: 14px;
+        font-weight: 550;
+    }
+
+    .footer .nav-item a:hover,
+    .footer .nav-item a.active {
+        color: var(--main);
+    }
+
+}

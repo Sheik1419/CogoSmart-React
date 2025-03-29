@@ -1,0 +1,819 @@
+@media screen and (min-width: 1350px) {
+
+    /* Checkout Banner */
+    .checkoutbanner {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .checkoutbanner video,
+    .checkoutbanner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 1;
+    }
+
+    .checkoutbanner .checkoutbannerct {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkoutbannerct h1 {
+        color: var(--secondary);
+        width: 75%;
+        margin: 0px auto 20px auto;
+        font-size: 60px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .checkoutbannerct h6 {
+        color: var(--secondary);
+        width: 70%;
+        margin: 0px auto 20px auto;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    /* Checkout Card */
+    .checkout {
+        background-color: var(--bg);
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .checkoutdiv {
+        width: 80%;
+        margin: 30px auto 0px auto;
+        display: grid;
+        grid-template-columns: 58% 40%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--secondary);
+        border-radius: 15px;
+    }
+
+    .checkout-content {
+        width: 100%;
+        height: 100%;
+        background: url('../../assets/images/about/Checkout_BG_2.png') center center no-repeat;
+        background-size: cover;
+        padding: 40px;
+        border-radius: 15px;
+    }
+
+    .checkout-content h2 {
+        color: var(--secondary);
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .checkout-content h5 {
+        color: var(--text-secondary);
+        font-size: 17px;
+        font-weight: 450;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cards {
+        background-color: var(--bg);
+        box-shadow: var(--box-shadow);
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead .cardsicon {
+        background-color: #00800033;
+        color: #008000;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .checkout-content .row .cardsheadct h5 {
+        color: var(--main);
+        font-size: 17px;
+        font-weight: 550;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h3 {
+        color: var(--text-primary);
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h6 {
+        color: var(--text-secondary);
+        font-size: 14px;
+        font-weight: 450;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .checkout-content .row .cardsul li {
+        display: grid;
+        grid-template-columns: 10% 85%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cardsul li i {
+        background-color: #00800033;
+        color: #008000;
+        height: 20px;
+        width: 20px;
+        font-size: 13px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul li h6 {
+        color: var(--text-secondary);
+        font-size: 14px;
+        font-weight: 450;
+    }
+
+    .checkout-form {
+        height: 100%;
+        padding: 30px 0px;
+    }
+
+    .checkout-form .row .col-sm-12 {
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .checkout-form .row .col-sm-12 h3 {
+        color: var(--primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .checkout-form .row .col-sm-12 {
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1098px) and (max-width: 1350px) {
+
+    /* Home Banner */
+    .checkoutbanner {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .checkoutbanner video,
+    .checkoutbanner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 1;
+    }
+
+    .checkoutbanner .checkoutbannerct {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkoutbannerct h1 {
+        color: var(--secondary);
+        width: 80%;
+        margin: 0px auto 20px auto;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .checkoutbannerct h6 {
+        color: var(--secondary);
+        width: 75%;
+        margin: 0px auto 20px auto;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    /* Checkout Card */
+    .checkout {
+        background-color: var(--bg);
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .checkoutdiv {
+        width: 80%;
+        margin: 30px auto 0px auto;
+        display: grid;
+        grid-template-columns: 58% 40%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--secondary);
+        border-radius: 15px;
+    }
+
+    .checkout-content {
+        width: 100%;
+        height: 100%;
+        background: url('../../assets/images/about/Checkout_BG_2.png') center center no-repeat;
+        background-size: cover;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .checkout-content h2 {
+        color: var(--secondary);
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .checkout-content h5 {
+        color: var(--text-secondary);
+        font-size: 17px;
+        font-weight: 450;
+        margin-bottom: 10px;
+    }
+
+    .checkout-content .row .cards {
+        background-color: var(--bg);
+        box-shadow: var(--box-shadow);
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead .cardsicon {
+        background-color: #00800033;
+        color: #008000;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .checkout-content .row .cardsheadct h5 {
+        color: var(--main);
+        font-size: 16px;
+        font-weight: 550;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h3 {
+        color: var(--text-primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h6 {
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 450;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul {
+        width: 85%;
+        margin: 30px auto;
+    }
+
+    .checkout-content .row .cardsul li {
+        display: grid;
+        grid-template-columns: 10% 85%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cardsul li i {
+        background-color: #00800033;
+        color: #008000;
+        height: 20px;
+        width: 20px;
+        font-size: 13px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul li h6 {
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 450;
+    }
+
+    .checkout-form {
+        height: 100%;
+        padding: 20px 0px;
+    }
+
+    .checkout-form .row .col-sm-12 {
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .checkout-form .row .col-sm-12 h3 {
+        color: var(--primary);
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .checkout-form .row button {
+        width: 50% !important;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1098px) {
+
+    /* Home Banner */
+    .checkoutbanner {
+        height: 775px;
+        width: 100%;
+        position: relative;
+    }
+
+    .checkoutbanner video,
+    .checkoutbanner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 1;
+    }
+
+    .checkoutbanner .checkoutbannerct {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkoutbannerct h1 {
+        color: var(--secondary);
+        width: 100%;
+        margin: 0px auto 20px auto;
+        font-size: 45px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .checkoutbannerct h6 {
+        color: var(--secondary);
+        width: 95%;
+        margin: 0px auto 20px auto;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    /* Checkout Card */
+    .checkout {
+        background-color: var(--bg);
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .checkoutdiv {
+        width: 90%;
+        margin: 30px auto 0px auto;
+        display: grid;
+        grid-template-columns: 55% 45%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--secondary);
+        border-radius: 15px;
+    }
+
+    .checkout-content {
+        width: 100%;
+        height: 100%;
+        background: url('../../assets/images/about/Checkout_BG_2.png') center center no-repeat;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .checkout-content h2 {
+        color: var(--secondary);
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .checkout-content h5 {
+        color: var(--text-secondary);
+        font-size: 15px;
+        font-weight: 450;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cards {
+        background-color: var(--bg);
+        box-shadow: var(--box-shadow);
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead .cardsicon {
+        background-color: #00800033;
+        color: #008000;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .checkout-content .row .cardsheadct h5 {
+        color: var(--main);
+        font-size: 15px;
+        font-weight: 550;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h3 {
+        color: var(--text-primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h6 {
+        color: var(--text-secondary);
+        font-size: 12px;
+        font-weight: 450;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul {
+        width: 85%;
+        margin: 30px auto;
+    }
+
+    .checkout-content .row .cardsul li {
+        display: grid;
+        grid-template-columns: 10% 85%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cardsul li i {
+        background-color: #00800033;
+        color: #008000;
+        height: 20px;
+        width: 20px;
+        font-size: 13px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul li h6 {
+        color: var(--text-secondary);
+        font-size: 14px;
+        font-weight: 450;
+    }
+
+    .checkout-form {
+        height: 100%;
+        padding: 20px 0px;
+    }
+
+    .checkout-form .row .col-sm-12 {
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .checkout-form .row .col-sm-12 h3 {
+        color: var(--primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .checkout-form .row button {
+        width: 50% !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Home Banner */
+    .checkoutbanner {
+        height: 775px;
+        width: 100%;
+        position: relative;
+    }
+
+    .checkoutbanner video,
+    .checkoutbanner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(30%);
+        z-index: 1;
+    }
+
+    .checkoutbanner .checkoutbannerct {
+        width: 95%;
+        margin: auto;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkoutbannerct h1 {
+        color: var(--secondary);
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 35px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .checkoutbannerct h6 {
+        color: var(--secondary);
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    /* Checkout Card */
+    .checkout {
+        background-color: var(--bg);
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .checkoutdiv {
+        width: 95%;
+        margin: 20px auto 0px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--secondary);
+        border-radius: 15px;
+    }
+
+    .checkout-content {
+        width: 100%;
+        height: 100%;
+        background: url('../../assets/images/about/Checkout_BG_2.png') center center no-repeat;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .checkout-content h2 {
+        color: var(--secondary);
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .checkout-content h5 {
+        color: var(--text-secondary);
+        font-size: 15px;
+        font-weight: 450;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cards {
+        background-color: var(--bg);
+        box-shadow: var(--box-shadow);
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .checkout-content .row .cardshead .cardsicon {
+        background-color: #00800033;
+        color: #008000;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .checkout-content .row .cardsheadct h5 {
+        color: var(--main);
+        font-size: 15px;
+        font-weight: 550;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h3 {
+        color: var(--text-primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsheadct h6 {
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 450;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul {
+        width: 95%;
+        margin: 30px auto;
+    }
+
+    .checkout-content .row .cardsul li {
+        display: grid;
+        grid-template-columns: 10% 85%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .checkout-content .row .cardsul li i {
+        background-color: #00800033;
+        color: #008000;
+        height: 20px;
+        width: 20px;
+        font-size: 13px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .checkout-content .row .cardsul li h6 {
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 450;
+    }
+
+    .checkout-form {
+        height: 100%;
+        padding: 30px 0px;
+    }
+
+    .checkout-form .row .col-sm-12 {
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .checkout-form .row .col-sm-12 h3 {
+        color: var(--primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .checkout-form .row .col-sm-12 {
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .checkout-form .row button {
+        width: 50% !important;
+    }
+
+}

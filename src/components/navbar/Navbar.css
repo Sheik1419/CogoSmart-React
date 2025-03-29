@@ -1,0 +1,218 @@
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link,
+.navbar-nav .nav-link:hover {
+    color: var(--main) !important;
+}
+
+.navbardiv {
+    width: 95%;
+    margin: auto;
+}
+
+.navbar.solid {
+    background-color: var(--secondary);
+    transition: background-color 1s ease 0s;
+    box-shadow: var(--box-shadow);
+}
+
+.navbar.solid ul .nav-link {
+    color: var(--text-secondary);
+}
+
+@media screen and (min-width: 1290px) {
+
+    .navbar {
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        padding: 0px 0px 5px 0px;
+        background: transparent;
+        border: none;
+        transition: background-color 1s ease 0s;
+    }
+
+    .navbar ul .nav-link {
+        color: var(--light);
+        font-weight: 550;
+        font-size: 15px;
+    }
+
+    .navbar .nav-item {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .navbar-toggler {
+        padding: 5px;
+        font-size: 20px;
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: transparent;
+        border: none;
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1290px) {
+
+    .navbar {
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        padding: 0px 0px 5px 0px;
+        background: transparent;
+        border: none;
+        transition: background-color 1s ease 0s;
+    }
+
+    .navbar-brand img {
+        height: 40px !important;
+    }
+
+    .navbar ul .nav-link {
+        color: var(--light);
+        font-weight: 550;
+        font-size: 13px;
+    }
+
+    .navbar .nav-item {
+        position: relative;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width: 989px) and (max-width: 1023px) {
+
+    .navbar {
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        padding: 0px 0px 5px 0px;
+        background: transparent;
+        border: none;
+        transition: background-color 1s ease 0s;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .responsive-button {
+        display: none;
+    }
+
+    .navbar ul .nav-link {
+        color: var(--light);
+        font-weight: 550;
+        font-size: 13px;
+    }
+
+    .navbar .nav-item {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .navbar-toggler {
+        padding: 5px;
+        font-size: 20px;
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: transparent;
+        border: none;
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+
+}
+
+@media screen and (max-width: 989px) {
+
+    .navbar {
+        width: 100%;
+        margin: auto;
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+        padding: 5px 0px 5px 0px;
+        background: transparent;
+        border: none;
+        transition: background-color 1s ease 0s;
+    }
+
+    .navbar ul .nav-link {
+        color: var(--text-secondary);
+        font-weight: 450;
+        font-size: 15px;
+    }
+
+    .navbar .nav-item {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .navbar-toggler {
+        padding: 5px;
+        font-size: 20px;
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: transparent;
+        border: none;
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+
+    .responsive-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 95%;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar ul li {
+        padding: 5px 0px;
+    }
+
+    .responsive-button div .navbar-toggler {
+        background-color: var(--main);
+        height: 40px;
+        width: 40px;
+    }
+
+    .responsive-button div i {
+        color: var(--secondary);
+    }
+
+    .navbar .navbar-collapse {
+        background-color: transparent;
+    }
+
+    .navbar .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .navbar-collapse {
+        padding: 0px 15px 10px 15px;
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+    .responsive-button {
+        display: none;
+    }
+}

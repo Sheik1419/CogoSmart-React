@@ -1,0 +1,118 @@
+:root {
+    --bg: #F9F9FF;
+    --main: #008000;
+    --main-light: #D6EEDD;
+    --primary: #000;
+    --secondary: #fff;
+    --light: #F3F3F3;
+    --light-dark: #AdAdAd;
+    --text-primary: #1C2D49;
+    --text-secondary: #52525B;
+    --text-tertiary: #FBD784;
+    --border: #0000001a;
+    --green: #009400;
+    --red: #DC2626;
+    --box-shadow: 0 0 0.875rem 0 rgba(33, 37, 41, 0.05);
+    --transition: 0.5s ease-in-out;
+}
+
+/* Headings */
+@media screen and (min-width: 1350px) {
+
+    .choosehead,
+    .keyfeatureshead,
+    .subfeatureshead,
+    .contacthead,
+    .pricinghead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choosehead h3,
+    .keyfeatureshead h3,
+    .subfeatureshead h3,
+    .contacthead h3,
+    .pricinghead h3 {
+        color: var(--text-primary);
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1098px) and (max-width: 1350px) {
+
+    .choosehead,
+    .keyfeatureshead,
+    .subfeatureshead,
+    .contacthead,
+    .pricinghead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choosehead h3,
+    .keyfeatureshead h3,
+    .subfeatureshead h3,
+    .contacthead h3,
+    .pricinghead h3 {
+        color: var(--text-primary);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1098px) {
+
+    .choosehead,
+    .keyfeatureshead,
+    .subfeatureshead,
+    .contacthead,
+    .pricinghead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choosehead h3,
+    .keyfeatureshead h3,
+    .subfeatureshead h3,
+    .contacthead h3,
+    .pricinghead h3 {
+        color: var(--text-primary);
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .choosehead,
+    .keyfeatureshead,
+    .subfeatureshead,
+    .contacthead,
+    .pricinghead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choosehead h3,
+    .keyfeatureshead h3,
+    .subfeatureshead h3,
+    .contacthead h3,
+    .pricinghead h3 {
+        color: var(--text-primary);
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+}

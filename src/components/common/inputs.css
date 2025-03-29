@@ -1,0 +1,92 @@
+.form-control:focus,
+.form-select:focus {
+    color: var(--primary);
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 1140px) {
+
+    /* Contact Inputs */
+    .row label {
+        color: var(--light-dark);
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .row input,
+    .row select,
+    .row textarea {
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        border-bottom: 1px solid var(--light-dark);
+        border-radius: 0px;
+    }
+
+    .row input:focus,
+    .row select:focus,
+    .row textarea:focus {
+        border-bottom: 1px solid var(--primary);
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1140px) {
+
+    /* Contact Inputs */
+    .row label {
+        color: var(--light-dark);
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+
+    .row input,
+    .row select,
+    .row textarea {
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        border-bottom: 1px solid var(--light-dark);
+        border-radius: 0px;
+    }
+
+    .row input:focus,
+    .row select:focus,
+    .row textarea:focus {
+        border-bottom: 1px solid var(--primary);
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Contact Inputs */
+    .row label {
+        color: var(--light-dark);
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .row input,
+    .row select,
+    .row textarea {
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        border-bottom: 1px solid var(--light-dark);
+        border-radius: 0px;
+    }
+
+    .row input:focus,
+    .row select:focus,
+    .row textarea:focus {
+        border-bottom: 1px solid var(--primary);
+    }
+
+}
