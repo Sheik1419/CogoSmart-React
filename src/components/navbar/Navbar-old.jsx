@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../navbar/Navbar.css";
 import logo from "../../assets/images/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  // Scroll Effect
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -15,18 +14,6 @@ const Navbar = () => {
       }
     });
   }, []);
-
-  // Navbar Icon
-  const [isOpen, setIsOpen] = useState(false);
-  useEffect(() => {
-    const navbar = document.querySelector(".navbar");
-
-    if (isOpen) {
-      navbar.classList.add("solid");
-    } else {
-      navbar.classList.remove("solid");
-    }
-  }, [isOpen]);
 
   return (
     <nav className={`navbar navbar-expand-lg ${scrolled ? "solid" : ""}`}>
@@ -39,7 +26,6 @@ const Navbar = () => {
           </div>
           <div>
             <button
-              onClick={() => setIsOpen(!isOpen)}
               className="navbar-toggler collapsed"
               type="button"
               data-bs-toggle="collapse"
@@ -48,11 +34,7 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i
-                className={`toggler-icon fa-solid ${
-                  isOpen ? "fa-xmark" : "fa-bars"
-                } transition-transform duration-300`}
-              ></i>
+              <i className="fa-solid fa-bars"></i>
             </button>
           </div>
         </div>
@@ -71,54 +53,38 @@ const Navbar = () => {
             id="navbarNav"
           >
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/"
-              >
+              <Link className="nav-link d-flex align-items-center" to="/">
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
+              <Link
+                className="nav-link d-flex align-items-center"
                 to="/about-us"
               >
                 About Us
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/"
-              >
+              <Link className="nav-link d-flex align-items-center" to="/">
                 Features
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
+              <Link
+                className="nav-link d-flex align-items-center"
                 to="/pricing"
               >
                 Pricing
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
+              <Link
+                className="nav-link d-flex align-items-center"
                 to="/contact-us"
               >
                 Contact Us
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>
