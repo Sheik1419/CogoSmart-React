@@ -1,12 +1,12 @@
 import React from "react";
 import PricingBanner from "./PricingBanner.jsx";
-import PricingCards from "./PricingCards.jsx";
+import PricingBody from "./PricingBody.jsx";
 
 function Pricing() {
   return (
     <>
       <PricingBanner />
-      <PricingCards />
+      <PricingBody />
     </>
   );
 }
