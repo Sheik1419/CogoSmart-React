@@ -71,52 +71,27 @@ const Navbar = () => {
             id="navbarNav"
           >
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/"
-              >
+              <NavLink className="nav-link" to="/">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/about-us"
-              >
+              <NavLink className="nav-link" to="/about-us">
                 About Us
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/"
-              >
+              <NavLink className="nav-link" to="/">
                 Features
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/pricing"
-              >
+              <NavLink className="nav-link" to="/pricing">
                 Pricing
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to="/contact-us"
-              >
+              <NavLink className="nav-link" to="/contact-us">
                 Contact Us
               </NavLink>
             </li>

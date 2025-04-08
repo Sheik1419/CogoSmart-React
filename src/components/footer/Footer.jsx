@@ -1,7 +1,7 @@
 import React from "react";
 import "../footer/Footer.css";
 import logo from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -69,29 +69,29 @@ const Footer = () => {
               <br />
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <Link to="/" className="p-0">
+                  <NavLink to="/" className="p-0">
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link to="/about-us" className="-0">
+                  <NavLink to="/about-us" className="-0">
                     About Us
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link to="/" className="p-0">
+                  <NavLink to="/" className="p-0">
                     Features
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link to="/pricing" className="p-0">
+                  <NavLink to="/pricing" className="p-0">
                     Pricing
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link to="/contact-us" className="p-0">
+                  <NavLink to="/contact-us" className="p-0">
                     Contact Us
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -101,14 +101,14 @@ const Footer = () => {
               <br />
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <Link to="" className="p-0">
+                  <NavLink to="/terms-and-conditions" className="p-0">
                     Terms & Conditions
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link to="" className="p-0">
+                  <NavLink to="/privacy-policy" className="p-0">
                     Privacy Policy
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>

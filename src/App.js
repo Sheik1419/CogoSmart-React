@@ -18,6 +18,8 @@ import About from "./components/aboutUsPage/AboutUs.jsx";
 import Contact from "./components/contactUsPage/ContactUs.jsx";
 import Pricing from "./components/pricing/Pricing.jsx";
 import Checkout from "./components/pricing/Checkout.jsx";
+import TermsAndCondition from "./components/policy/TermsAndCondition.jsx";
+import PrivacyPolicy from "./components/policy/PrivacyPolicy.jsx";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </>
